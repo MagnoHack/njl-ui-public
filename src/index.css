@@ -16,6 +16,14 @@
   --primary-foreground: oklch(0.985 0 0);
   --secondary: hsla(0, 0%, 100%, 1);
   --secondary-foreground: oklch(0.205 0 0);
+  --primary-btn: hsla(337, 91%, 51%, 1);
+  --primary-btn-foreground: hsla(0, 0%, 100%, 1);
+  --secondary-btn: hsla(0, 0%, 100%, 1);
+  --secondary-btn-foreground: hsla(0, 0%, 0%, 1);
+  --primary-btn-outline: hsla(337, 91%, 51%, 1);
+  --primary-btn-outline-foreground: hsla(337, 91%, 51%, 1);
+  --secondary-btn-outline: hsla(0, 0%, 100%, 1);
+  --secondary-btn-outline-foreground: hsla(0, 0%, 100%, 1);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(0.97 0 0);
@@ -50,6 +58,14 @@
   --primary-foreground: oklch(0.205 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
+  --primary-btn: hsla(337, 88%, 58%, 1);
+  --primary-btn-foreground: hsla(0, 0%, 100%, 1);
+  --secondary-btn: hsla(0, 0%, 100%, 1);
+  --secondary-btn-foreground: hsla(249, 11%, 12%, 1);
+  --primary-btn-outline: hsla(337, 88%, 58%, 1);
+  --primary-btn-outline-foreground: hsla(337, 88%, 58%, 1);
+  --secondary-btn-outline: hsla(0, 0%, 100%, 1);
+  --secondary-btn-outline-foreground: hsla(0, 0%, 100%, 1);
   --muted: oklch(0.269 0 0);
   --muted-foreground: oklch(0.708 0 0);
   --accent: oklch(0.269 0 0);
@@ -88,6 +104,16 @@
   --color-primary-foreground: var(--primary-foreground);
   --color-secondary: var(--secondary);
   --color-secondary-foreground: var(--secondary-foreground);
+  --color-primary-btn: var(--primary-btn);
+  --color-primary-btn-foreground: var(--primary-btn-foreground);
+  --color-secondary-btn: var(--secondary-btn);
+  --color-secondary-btn-foreground: var(--secondary-btn-foreground);
+  --color-primary-btn-outline: var(--primary-btn-outline);
+  --color-primary-btn-outline-foreground: var(--primary-btn-outline-foreground);
+  --color-secondary-btn-outline: var(--secondary-btn-outline);
+  --color-secondary-btn-outline-foreground: var(
+    --secondary-btn-outline-foreground
+  );
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-accent: var(--accent);
