@@ -22,8 +22,8 @@
   --secondary-btn-foreground: hsla(0, 0%, 0%, 1);
   --primary-btn-outline: hsla(337, 91%, 51%, 1);
   --primary-btn-outline-foreground: hsla(337, 91%, 51%, 1);
-  --secondary-btn-outline: hsla(0, 0%, 100%, 1);
-  --secondary-btn-outline-foreground: hsla(0, 0%, 100%, 1);
+  --secondary-btn-outline: hsla(0, 0%, 0%, 1);
+  --secondary-btn-outline-foreground: hsla(0, 0%, 0%, 1);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(0.97 0 0);
