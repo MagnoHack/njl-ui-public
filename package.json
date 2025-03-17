@@ -17,10 +17,7 @@
     "release:patch": "npm version patch && npm publish",
     "release:minor": "npm version minor && npm publish",
     "release:major": "npm version major && npm publish",
-    "build-storybook": "storybook build",
-    "version:patch": "npm version --patch --no-git-tag-version && VERSION=$(node -p \"require('./package.json').version\") && git add package.json && git commit -m \"chore: release v$VERSION\" && git tag v$VERSION && git push && git push --tags",
-    "version:minor": "npm version --minor --no-git-tag-version && VERSION=$(node -p \"require('./package.json').version\") && git add package.json && git commit -m \"chore: release v$VERSION\" && git tag v$VERSION && git push && git push --tags",
-    "version:major": "npm version --major --no-git-tag-version && VERSION=$(node -p \"require('./package.json').version\") && git add package.json && git commit -m \"chore: release v$VERSION\" && git tag v$VERSION && git push && git push --tags"
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
