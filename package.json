@@ -3,7 +3,7 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -18,7 +18,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "version:patch": "yarn version --patch --no-git-tag-version && VERSION=$(node -p \"require('./package.json').version\") && git add package.json && git commit -m \"chore: release v$VERSION\" && git tag $VERSION && git push && git push --tags",
+    "version:minor": "yarn version --minor --no-git-tag-version && VERSION=$(node -p \"require('./package.json').version\") && git add package.json && git commit -m \"chore: release v$VERSION\" && git tag $VERSION && git push && git push --tags",
+    "version:major": "yarn version --major --no-git-tag-version && VERSION=$(node -p \"require('./package.json').version\") && git add package.json && git commit -m \"chore: release v$VERSION\" && git tag $VERSION && git push && git push --tags"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
