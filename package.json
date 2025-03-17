@@ -1,11 +1,17 @@
 {
   "name": "@njl/ui-components",
-  "private": true,
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "version": "0.0.1",
   "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njl/ui-components.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
